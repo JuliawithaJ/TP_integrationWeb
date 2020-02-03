@@ -1,0 +1,42 @@
+#topBlock{
+    background-color: #1c1c1c;
+    color : white;
+    padding: 80px 5px;
+
+}
+#topBlock .introText{
+    padding: 10px 25px;
+}
+#topBlock blockquote{
+    background-color: white;
+    color: #1c1c1c;
+    width: 95%;
+    min-height: 100px;
+    border:none;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#topBlock blockquote p{
+    font-size: 3em;
+    padding: 0 15px;
+}
+#topBlock blockquote footer{
+    font-size:.5em;
+    color:grey;
+    padding: 15px;
+}
+#topBlock blockquote footer cite{
+    color:#00cdcc;
+}
+#topBlock  #blockquote:after{
+    content:'';
+    position: absolute;
+    left: 50px;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 30px white;
+    border-left: solid 30px rgba(255, 255, 255, 0);
+    transform: skew(-45deg)
+}

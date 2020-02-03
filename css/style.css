@@ -1,0 +1,19 @@
+@import url("components/header.css");
+@import url("components/banner.css");
+@import url("components/topblock.css");
+
+@font-face {
+    font-family: "pressbook";
+    src: url("/fonts/pressbook.eot") format("embedded-opentype"), url("/fonts/pressbook.ttf") format("truetype"), url("/fonts/pressbook.woff") format("woff"), url("/fonts/pressbook.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+*{
+    box-sizing: border-box;
+    font-family: "pressbook",sans-serif;
+}
+body{
+    margin: 0;
+}
+

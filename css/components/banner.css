@@ -1,0 +1,30 @@
+.bannerimage{
+    background-image: url(../../images/sky-690293_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtreNoir{
+    position: absolute;
+    background-color:black;
+    width: 100%;
+    height: 20vh;
+    top:0;
+    left:0;
+    opacity: .4;
+}
+#banner{
+    width: 100%;
+    position: relative;
+}
+#banner h1{
+    font-family: "pressbook",sans-serif;
+    z-index:999;
+    color:white;
+}
+#banner .titrePage span{
+    color:  #00cdcc;
+}
