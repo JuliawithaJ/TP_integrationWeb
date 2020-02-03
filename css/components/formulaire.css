@@ -1,0 +1,25 @@
+.formulaireContact label{
+    font-size: 25px;
+    color: grey;
+}
+.formulaireContact input{
+    border-top: 1px solid grey;
+    margin-top: 10px;
+}
+
+.formulaireContact .nometprenom, .formulaireContact .demande, .formulaireContact .message{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.formulaireContact input{
+    background-color: white;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+.formulaireContact #envoyer{
+    display: flex;
+    justify-content: center;
+}

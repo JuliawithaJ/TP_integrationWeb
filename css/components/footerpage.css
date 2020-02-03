@@ -1,0 +1,18 @@
+#footerpage ul{
+    list-style-type: none;
+    display: flex;
+}
+#footerpage ul li{
+    padding: 0px 10px;
+}
+#footerpage a{
+    text-decoration: none;
+    color: grey;
+}
+#footerpage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(228, 227, 227);
+}
+

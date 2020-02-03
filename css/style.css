@@ -1,6 +1,10 @@
 @import url("components/header.css");
 @import url("components/banner.css");
 @import url("components/topblock.css");
+@import url("components/bottomBlock.css");
+@import url("components/formulaire.css");
+@import url("components/footerpage.css");
+
 
 @font-face {
     font-family: "pressbook";
